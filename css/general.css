@@ -1,0 +1,95 @@
+@-moz-viewport { wiidth: device-width; scale: 1; }
+@-ms-viewport { wiidth: device-width; scale: 1; }
+@-o-viewport { wiidth: device-width; scale: 1; }
+@-webkit-viewport { wiidth: device-width; scale: 1; }
+@viewport { wiidth: device-width; scale: 1; }
+
+
+html {
+	background:url(../images/jenny1.jpg) no-repeat center center fixed;
+	background-repeat:no-repeat;
+	max-width:100%;
+	background-size:cover;
+	font-size:13px;
+	min-width:15em;
+}
+
+img {
+		max-width:100%;
+}
+
+header {
+	font-size:30px;
+	padding-bottom:.1em;
+}
+
+article {
+	width:100%;
+	background-color:#FFF;
+	opacity:0.75;
+	padding:2em;
+}
+
+li {
+	display:inline-block;
+	overflow:clear;
+}
+
+img {
+		max-width:75%;
+		padding:2;
+}
+
+ul {
+	padding:0;
+	margin: 1.5rem 0;
+}
+
+
+
+.credit {
+	font-size:14px;
+}
+
+
+p {
+	margin-right: 1em;
+	padding-right:1.5em;
+}
+
+	
+
+
+@media only screen and (min-width:19em) {
+
+html {
+	font-size:16px;
+}
+	
+article {
+	width:300px;
+	padding-right:.2em;
+}
+
+img {
+	max-width:100%;
+}
+	
+}
+
+@media only screen and (min-width:38em) {
+
+article {
+	width:350px;
+}
+
+.credit {
+	font-size:16px;
+}
+
+header {
+	font-size:50px;
+}
+}
+
+
