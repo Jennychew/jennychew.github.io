@@ -39,10 +39,6 @@
 
 
 
-html {
-	background:#000;
-	background:url(../images/debut_dark.png);
-}
 
 body {
 	margin:0;
@@ -195,6 +191,7 @@ footer p {
 		padding:2em;
 }
 
-h3, h4 {
+
+h4 {
 	color:#fff;
 }
